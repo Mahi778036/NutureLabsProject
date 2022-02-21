@@ -1,0 +1,110 @@
+.last{
+    padding: 39px 20px;
+}
+.last_button{
+    display: flex;
+    column-gap: 5px;
+    justify-content: space-between;
+}
+.last_button_ava{
+    background-color: #353945;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: max-content;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.last_button_ava img{
+    height: 20px;
+    width: 20px;
+}
+.last p{
+    font-weight: normal;
+    font-size: 15.0211px;
+    color: #FFFF;
+}
+.last_button_money{
+    border: 1px solid #3772FF;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    width: max-content;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.last_arrow{
+    margin-top: 20px;
+    display: flex;
+    column-gap: 10px;
+}
+.last_arrow h3{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #FFFF;
+}
+.last_link{
+    margin-top: 20px;
+}
+.last_link a{
+    color: #FFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+.last_input{
+    margin-top: 20px;
+}
+.last_input input{
+    background-color: #242731;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #808191;
+    border: none;
+    padding: 12px 20px;
+    width: 70%;
+}
+.last_buttons{
+    display: flex;
+    column-gap: 10px;
+}
+.last_custom_buttons{
+    width: max-content;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 5px;
+    background-color: #3772FF;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.last_custom_buttons_right{
+    width: max-content;
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    column-gap: 5px;
+    border: 1px solid #242731;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.last_buttons p{
+    font-size: 14px;
+    color: #FFFF;
+    font-weight: bold;
+}
+.middle_footer-title{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #191B20;
+    border-radius: 8px;
+    padding: 10px 10px;
+}
+.middle_footer-title p{
+    font-size: 14px;
+    color: #808191;
+    text-transform: uppercase;
+}
