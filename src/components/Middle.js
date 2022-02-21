@@ -13,7 +13,8 @@ const Middle = (props) => {
 
     const getData = () => {
         axios.get(url).then(response => {
-            setData(response.data.data.data[0]);    
+            setData(response.data.data.data[0]);   
+            alert("im naveen") 
         })
     }
   
