@@ -11,16 +11,20 @@ const Middle = (props) => {
     const url = "https://raw.githubusercontent.com/akshita151199/APIs/main/data";
     const [data, setData] = useState({});
 
-    const getData = () => {
-        axios.get(url).then(response => {
-            setData(response.data.data.data[0]);   
-            alert("im naveen") 
-        })
-    }
+   
   
-const dataHandler = (first) => {
-    getData();
+const firstHandler = () => {
+    axios.get(url).then(response => {
+        setData(response.data.data[0]);
+    })
 }
+const secondHandler = () => {
+    axios.get(url).then(response => {
+        setData(response.data.data[1]);
+    })
+}
+
+const firstTabData = data;
 
     console.log(data);  
 
@@ -140,9 +144,9 @@ const dataHandler = (first) => {
                  </div>
              </div>
              <div className="middle_tabs">
-                 <button onClick={dataHandler}  className="tab_first">
+                 <button onClick={firstHandler}  className="tab_first">
                     First Tab</button>
-                 <button className="tab_second">Second Tab</button>
+                 <button onClick={secondHandler} className="tab_second">Second Tab</button>
              </div>
              <div className="middle_footer-title">
                  <p>asset</p>
@@ -150,7 +154,7 @@ const dataHandler = (first) => {
                  <p>user account</p>
                  <p>Referral earning</p>
              </div>
-             <Table data={data} />
+             <Table data={firstTabData} />
         </div>
       
     
