@@ -1,22 +1,23 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif !important;
 }
 
-.top-line{
-    height: 36.48px;
-    background-color: #3772FF;
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: Poppins;
-    line-height: 32px;
-    text-align: center;
-    vertical-align: middle;
+.top-line {
+  height: 36.48px;
+  background-color: #3772ff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Poppins;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.main{
-    background-color: #000000;
-    display: grid;
-    grid-template-columns: 250px 1fr 350px;
+.main {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: 250px 1fr 350px;
 }
